@@ -1,0 +1,15 @@
+.container {
+    text-align: center;
+    background-color: #b6b6bf;
+    overflow: hidden;
+}
+
+.centerChild {
+    width: 500px; margin: 0 auto; 
+}
+
+body {
+    background-color: #00004f;
+    margin: 0;
+}
+
