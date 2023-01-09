@@ -1,15 +1,39 @@
-.container {
+.title {
     text-align: center;
-    background-color: #b6b6bf;
+    background-color: #D6E3F8;
     overflow: hidden;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-size: larger;
+    border-bottom: 7px gray inset;
+    
 }
 
-.centerChild {
-    width: 500px; margin: 0 auto; 
+h1 {
+    color: #584B53;
+}
+
+.centerImg {
+    width: 500px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 15%;
 }
 
 body {
-    background-color: #00004f;
+    background-color: #E4BB97;
     margin: 0;
 }
 
+.bio {
+    margin-top: 50px;
+    margin-right: 50px;
+    margin-left: 50px;
+    border: 10px gray inset;
+    border-radius: 25px;
+    background-color: #D6E3F8;
+}
+
+.bioText {
+    text-align: center;
+    color: #584B53;
+}
