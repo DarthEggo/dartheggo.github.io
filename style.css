@@ -4,8 +4,9 @@
     overflow: hidden;
     font-family:Georgia, 'Times New Roman', Times, serif;
     font-size: larger;
-    border-bottom: 7px gray inset;
-    
+    border: 10px gray inset;
+    border-radius: 25px;
+    margin-top: 25px;
 }
 
 h1 {
@@ -13,10 +14,16 @@ h1 {
 }
 
 .centerImg {
-    width: 500px;
-    margin-left: auto;
-    margin-right: auto;
-    width: 15%;
+    margin-top: 60px;
+    margin-left: 10%;
+    margin-right: 5%;
+    width: 20%;
+    float: left;
+}
+
+.borderPfp {
+  border: 10px gray inset;
+  border-radius: 25px;
 }
 
 body {
@@ -28,12 +35,53 @@ body {
     margin-top: 50px;
     margin-right: 50px;
     margin-left: 50px;
+    margin-bottom: 50px;
     border: 10px gray inset;
     border-radius: 25px;
     background-color: #D6E3F8;
+    float: left;
+}
+.bio.right {
+ width:25%;
 }
 
+.bio.left {
+ width:60%;
+}
+
+@media screen and (max-width: 600px) {
+    .bio.left, .bio.right {
+      width: 100%;
+    }
+  }
+
 .bioText {
+    margin-left: 5%;
+    margin-right: 5%;
+    width: 50%;
     text-align: center;
     color: #584B53;
+    float: right;
 }
+
+h4{
+  margin-top: 50px
+}
+
+.button1 {
+  background-color: #E4BB97;
+  color: #584B53;
+  border: 10px gray inset;
+  width: 50%;
+  height: 25%;
+  border-radius: 25px;
+  margin-left: 25%; 
+  margin-right: 25%;
+  margin-top: 5%;
+  margin-bottom: 5%;
+  font-size: 20px;
+  }
+
+  .button1:hover {
+    font-size: 25px;
+  }
